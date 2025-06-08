@@ -1,6 +1,7 @@
 backend:
   name: github
-  repo: SEU_USUARIO/NOME_DO_REPOSITORIO
+  repo: meusite.github.io
+
   branch: main
   site_domain: seusite.github.io
 
