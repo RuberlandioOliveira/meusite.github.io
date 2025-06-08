@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: SEU_USUARIO/NOME_DO_REPOSITORIO
+  branch: main
+  site_domain: seusite.github.io
+
+media_folder: "static/img"
+public_folder: "/static/img"
+
+collections:
+  - name: "produtos"
+    label: "Produtos"
+    folder: "conteudos/produtos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Nome", name: "nome", widget: "string"}
+      - {label: "Preço", name: "preco", widget: "string"}
+      - {label: "Imagem", name: "imagem", widget: "image"}
